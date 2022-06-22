@@ -18,12 +18,8 @@ function App() {
           
 
       </Routes>
-      
-      
-  
-     
-    <Footer />
-    </Router>
+      <Footer />
+      </Router>
     
   );
 }

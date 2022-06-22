@@ -4,6 +4,8 @@ import { Row,Col } from 'react-bootstrap'
 import Cards from './Cards'
 
 
+
+
 function Home() {
 
 const [hotels,setHotels]=useState([]) 
@@ -18,7 +20,7 @@ await fetch('/restaurants.json')
 fetchData()
  
 }, [])
-console.log(hotels);
+
 return (
   <Row>
   {hotels.map((item)=>(
